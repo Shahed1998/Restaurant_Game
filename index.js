@@ -1,29 +1,4 @@
-        
-    
-        // function whosPaying(names) {
 
-        //         arr_name.push(names);
-        //     }
-
-        //     function whoWillPay() {
-
-        //         var len = arr_name.length;
-        //         var val = Math.floor(Math.random() * len);
-        //         var name = arr_name[val];
-        //         return name;
-        //     }
-
-        //     var arr_name = [];
-            
-        //     var num = prompt('How many members do you have ?');
-        //     for (var i = 1; i <= num; i++) {
-        //         var name = prompt("Customer name " + i);
-        //         whosPaying(name);
-        //     }
-        //     console.log(arr_name);
-        //     alert(whoWillPay() + " will pay for the price");
-
-// bringing all under functions
 
 var arr_name = [];
 
