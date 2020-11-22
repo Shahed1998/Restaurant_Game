@@ -15,6 +15,7 @@ function welcome(){
 
     }else if(p_val == null){
         p_val = "Anonymous";
+        return;
     }
     document.write(p_val);
     
