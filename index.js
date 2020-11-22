@@ -13,9 +13,6 @@ function welcome(){
         document.write(p_val);
     }
 
-    
-    
-    
 }
 
 function success(){
