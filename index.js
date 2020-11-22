@@ -6,11 +6,6 @@ var arr_name = [];
 function welcome(){
     var p_val = prompt("Plz enter your name to continue:");
 
-    if(p_val === null){
-        p_val = "Anonymous";
-        
-    }
-
     if(p_val == ""){
         alert('Please enter your name');
         p_val = prompt("Plz enter your name to continue:");
@@ -18,7 +13,7 @@ function welcome(){
             p_val = "Anonymous";
         }
 
-    }else if(p_val === null){
+    }else if(p_val == null){
         p_val = "Anonymous";
     }
     document.write(p_val);
